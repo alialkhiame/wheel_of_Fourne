@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Spin the wheel to choose a date idea!">
+    <title>Date Idea Wheel Spinner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Date Idea Spinner</h1>
+        <canvas id="wheel" width="500" height="500"></canvas>
+        <button id="spinButton">Spin the Wheel!</button>
+        
+        <div id="result"></div>
+
+        <h3>Add a New Date Idea</h3>
+        <input type="text" id="newIdeaInput" placeholder="New Date Idea" />
+        <button id="addIdeaButton">Add Idea</button>
+
+        <h3>Delete a Date Idea</h3>
+        <select id="deleteIdeaSelect">
+            <!-- Options will be dynamically added here -->
+        </select>
+        <button id="deleteIdeaButton">Delete Idea</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
